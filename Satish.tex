@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{graphicx}
+\usepackage[normalem]{ulem}
+\input{glyphtounicode}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+
+
+%----------FONT OPTIONS----------
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-10pt}} 
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+%------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Satish Shrishail Mirji} \\ \vspace{5pt}
+    \normalsize 
+    \faMobile*\ \underline{\href{tel:+91-9380240695}{+91-9380240695}} \quad
+    \faEnvelope\ \underline{\href{mailto:satish15.dev@gmail.com}{satish15.dev@gmail.com}} \quad
+    \faLinkedin\ \underline{\href{https://www.linkedin.com/in/satish-m-a99b66334/}{linkedin}} \quad
+    \faGlobe\ \underline{\href{https://techwithsatish.github.io/Satish-Portfolio/}{Portfolio}} \quad
+    \faGithub\ \underline{\href{https://github.com/techwithsatish}{Github}}
+\end{center}
+
+
+\vspace{-5pt}
+
+
+
+
+%-----------TECHNICAL SKILLS-----------
+
+\section{Technical Skills}
+\justifying
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:} Python, JavaScript
+     
+     \textbf{Web Development:} HTML, CSS, DOM Manipulation, Async JS, APIs, Node.js, REST APIs, Mongoose, CRUD Operations, User Authentication and Authorization, Git \& Version Control
+     
+     \textbf{WebDev Tools:} VSCode, Postman, Chrome DevTools, GitHub, Figma, Netlify 
+     
+     \textbf{Frameworks:} Bootstrap, Tailwind CSS, React.js, Express.js
+     
+     \textbf{Database:} MongoDB, SQL
+    }}     
+\end{itemize}
+\vspace{-13pt}
+
+%-----------WORK EXPERIENCE-----------
+
+
+\section{Work Experience}
+\justifying
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{MERN Stack Developer Intern} \hfill Feb 2026 -- May 2026 \\ 
+    \textit{SuprMentr, Bengaluru, Karnataka, India} \\
+    \vspace{-20pt}
+    
+    \begin{itemize}
+        \justifying
+        \item Worked as a \textbf{MERN Stack Intern} and built an \textbf{Ecommerce Website} as a personal full-stack web application using \textbf{MongoDB, Express.js, React.js, and Node.js}.
+    \end{itemize}
+
+    }}
+\end{itemize}
+
+
+\vspace{-13pt}
+%-----------EDUCATION-----------
+
+
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+\justifying
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{\underline{\href{https://github.com/techwithsatish/ecommerce-website}{\textcolor{blue}{Ecommerce Website (MERN Stack)}}}} $$ {}}{}
+\resumeItemListStart
+\resumeItem{\textbf{Frontend Development:} Built a dynamic and mobile-responsive UI using \textbf{React.js} and \textbf{Tailwind CSS}. Implemented complex functionalities including \textbf{product filtering}, \textbf{product variations}, and \textbf{real-time cart state management}.}
+\resumeItem{\textbf{Backend \& API Development:} Designed robust \textbf{RESTful APIs} using \textbf{Node.js} and \textbf{Express.js} to handle \textbf{authentication}, \textbf{product management}, and \textbf{order processing}.}
+\resumeItem{\textbf{Database Management:} Architected the data schema using \textbf{MongoDB} (via \textbf{Mongoose}) to efficiently store \textbf{user profiles}, \textbf{product catalogs}, and \textbf{order history}.}
+\resumeItem{\textbf{Payment Gateway Integration:} Integrated secure payment processing via \textbf{Stripe} to support multiple payment methods, including \textbf{online transactions} and \textbf{Cash on Delivery}.}
+\resumeItem{\textbf{Admin Dashboard:} Engineered a dedicated admin panel for \textbf{inventory management}, including \textbf{product upload} (with image handling), \textbf{product deletion}, and \textbf{order tracking}.}
+\resumeItem{\textbf{Deployment:} Managed production deployment on \textbf{Vercel} with custom configuration for \textbf{routing} and \textbf{backend/frontend integration}.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\underline{\href{https://chromium-review.googlesource.com/q/owner:satish15.dev@gmail.com}{\textcolor{blue}{Open Source Contributor}}}} $$ {}}{}
+\resumeItemListStart
+\resumeItem{\textbf{Open Source Contributor:} Contributed to the \textbf{Chromium Project} by improving documentation through typo corrections via Gerrit.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+%-----------EDUACTION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sai Vidya Institute Of Technology Bengaluru}{2022 – Present}
+      {B.E in CSE (Data Science) - CGPA: 8.5}{Karnataka}
+      
+    \vspace{2pt}
+      
+    \resumeSubheading
+      {Sainik School Kodagu}{2021 Batch}
+      {Central Board of Secondary Education - Percentage: 80\%}{Karnataka}
+
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Sainik School Kodagu}{2019 Batch}
+      {Central Board of Secondary Education - Percentage: 84\%}{Karnataka}
+  \resumeSubHeadingListEnd
+\vspace{1mm}
+
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    
+\textbf{\href{https://www.udemy.com/certificate/UC-906733f7-7512-4649-972f-e33253762d3e/}{\color{blue}Full Stack Web Development Certification From Udemy}} \\ \vspace{2pt}
+    }}
+\end{itemize}
+\vspace{-13pt}
+
+
+
+
+\end{document}
