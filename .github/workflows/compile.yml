@@ -14,7 +14,7 @@ jobs:
           root_file: main.tex
       - run: |
           mkdir dist
-          cp main.pdf dist/index.pdf
+          cp main.pdf dist/satish_resume_2026.pdf
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
